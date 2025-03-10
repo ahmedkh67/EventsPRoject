@@ -16,7 +16,7 @@ function CommentBox ({name,rate, comment, src } : CommentsecTypes ){
             </p>
             <div className="flex mb-3 justify-center">
 
-            {Array.from({length : rate}).map((_,index) => (
+            {Array.from({length : rate}).map(() => (
                 <Image src={Star} alt={'star rates icons'} width={20} />
             ))}
                        

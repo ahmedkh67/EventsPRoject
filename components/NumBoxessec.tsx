@@ -13,7 +13,7 @@ const NumBoxessec = () => {
     <div className="flex flex-col md:flex-row w-full md:h-77 
     Distance_Background11 bg-black justify-evenly items-center pb-12 ">
       {NumBoxes.map((item) => (
-        <NumBox Num={item.Num} Dis={item.Dis} Src={item.Src}  />
+        <NumBox Num={item.Num} Dis={item.Dis} Src={item.Src} key={item.Dis}  />
       ))}     
     </div>
     </>

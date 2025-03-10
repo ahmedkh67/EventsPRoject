@@ -12,7 +12,7 @@ const Navbar = () => {
 
      <ul className='NavlistContainer'>
       {Navlist.map((item) => (
-        <Link href={item.link}>
+        <Link href={item.link} key={item.title}>
           <h1 className='Navlist-li font-bold transition-[0.3] text-2xl' >
             {item.title}
           </h1>        

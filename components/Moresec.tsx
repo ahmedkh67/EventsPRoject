@@ -14,7 +14,7 @@ const Moresec = () => {
       {Moreboxes.map((item) => (
         
         <Morebox title={item.MoreBoxtitle} 
-        bio={item.MoreBoxbio} srcs={item.MoreBoxsrc} />
+        bio={item.MoreBoxbio} srcs={item.MoreBoxsrc} key={item.MoreBoxtitle} />
        
       ))}
     
