@@ -47,9 +47,9 @@ const Commentssec = () => {
          className='flex justify-center items-center ' >
 
           {Commentsecc.map((item) => (
-            <SwiperSlide className='flex justify-center items-center'>
+            <SwiperSlide className='flex justify-center items-center' key={item.name} >
             <CommentBox name={item.name} comment={item.comment}
-             src={item.src} rate={item.rate} key={item.name} />
+             src={item.src} rate={item.rate}  />
             </SwiperSlide>
           ))}
             
