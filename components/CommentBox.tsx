@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Star from '@/public/Star Icon.svg'
 
 type CommentsecTypes = {
-    name: string , rate: number | any , comment: string , src: string | any ,
+    name: string , rate: number , comment: string , src: string ,
 }
 function CommentBox ({name,rate, comment, src } : CommentsecTypes ){
   return (
