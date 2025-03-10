@@ -29,8 +29,8 @@ const Navbar = () => {
         </h1>
      </button>
 
-     <Image src={MenuIcon} alt='Menu list icon ' width={35} height={35} className='md:hidden flex' />
-     
+     <Image src={MenuIcon} alt='Menu list icon ' width={50} height={50} className='md:hidden flex' />
+
     </div>
 
     </>
