@@ -13,6 +13,7 @@ import Projectssec from "./Projectssec";
 import Distancesec from "./Distancesec";
 import NumBox from "./NumBox";
 import NumBoxessec from "./NumBoxessec";
+import Orderbutton from "./Orderbutton";
 
 export {
     Navbar, 
@@ -29,6 +30,7 @@ export {
     Projectssec,
     Distancesec,
     NumBox,
-    NumBoxessec
+    NumBoxessec,
+    Orderbutton
     
 }

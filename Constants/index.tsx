@@ -42,27 +42,27 @@ export const Moreboxes = [
 export const ServicesCards = [
   { title: " تأجير أدوات الزينة و الديكور ",
     bio: " من الطاولات والكراسي , الى الاضاءة والزينة ",
-    link: "  ",
+    link: "/Decorativetools ",
     
   },
   { title: " تأجير معدات الصوت والاضاءة ",
     bio: " احدث انظمة الصوت و الاضاءة التي تضمن لك تجربة مميزة ",
-    link: "  ",
+    link: "/Lightsequipment  ",
     
   },
   { title: " تأجير الأثاث و المعدات الخاصة " ,
     bio: " خيارات متنوعة تتناسب مع ذوقك و احتياجك ",
-    link: "  ",
+    link: "/Specialequipment  ",
     
   },
   { title: " تأجير الأواني و القطع الفاخرة ",
     bio: " تأثيث الطاولات بأواني مميزة و انيقة ",
-    link: "  ",
+    link: "/Luxurywares  ",
     
   },
   { title: " خدمة التوصيل و التركيب ",
     bio: " نضمن ان كل شيء جاهز قبل موعد الحدث ",
-    link: "  ",
+    link: "/Deliveryservice  ",
     
   },
 ] 
