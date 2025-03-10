@@ -6,10 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import Image from 'next/image';
-import Logo from '@/public/Logo.jpg'
 import Link from 'next/link';
-import { transform } from 'next/dist/build/swc/generated-native';
 
 
 const Herosec = () => {

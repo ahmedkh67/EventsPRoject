@@ -1,5 +1,4 @@
 import { Commentssec, Distancesec, Herosec, Moresec, NumBoxessec, Projectssec, Servicesec } from "@/components";
-import Image from "next/image";
 
 export default function Home() {
   return (

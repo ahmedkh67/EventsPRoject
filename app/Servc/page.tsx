@@ -6,8 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import Image from 'next/image';
-import Logo from '@/public/Logo.jpg'
+
 import { Moresec, Servicesec, Commentssec } from '@/components';
 
 const page = () => {

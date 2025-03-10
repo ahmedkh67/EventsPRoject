@@ -1,6 +1,5 @@
 import React from 'react'
 import ServiceCard from './ServiceCard'
-import Link from 'next/link'
 
 const Servicesec = () => {
   return (

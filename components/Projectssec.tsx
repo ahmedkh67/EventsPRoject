@@ -2,7 +2,7 @@
 
 import React from 'react'
 import GalleryCell from './GalleryCell'
-import {Autoplay ,Navigation, Pagination, Scrollbar } from "swiper/modules";
+import {Autoplay , Pagination, Scrollbar } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";

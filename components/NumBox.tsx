@@ -3,8 +3,8 @@ import Image from 'next/image'
 
 type NumBoxesTypes = {
     Num: number | string , 
-    Dis : string | any , 
-    Src : string | any
+    Dis : string , 
+    Src : string
 }
 
 function NumBox({Num , Dis , Src}: NumBoxesTypes){

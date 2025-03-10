@@ -4,7 +4,7 @@ import Image from 'next/image'
 type MoreboxParams = {
     title : string ,
     bio: string, 
-    srcs: string |any ,
+    srcs: string ,
 }
 
 function MoreBox ({title , bio , srcs } : MoreboxParams) {
