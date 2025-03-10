@@ -6,13 +6,13 @@ export default function Home() {
       <Herosec />
       <Moresec />
       <div className="flex w-full justify-center items-center bg-white pt-20 ">
-        <h1 className="text-[50px] " id="Servicessecid" >
+        <h1 className="md:text-[50px] text-[38px] " id="Servicessecid" >
           خدماتنا و منتجاتنا
         </h1>
       </div>
       <Servicesec />
       <div className="flex w-full justify-center items-center bg-black pt-10 ">
-        <h1 className="text-[50px] text-white " >
+        <h1 className="md:text-[50px] text-[38px] text-white " >
           من أعمالنا
         </h1>
       </div>

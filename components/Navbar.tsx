@@ -1,6 +1,8 @@
 import React from 'react'
 import Link from 'next/link'
 import { Navlist } from '@/Constants'
+import MenuIcon from '@/public/Menu 2 Icon.svg'
+import Image from 'next/image'
 
 const Navbar = () => {
   return (
@@ -27,9 +29,8 @@ const Navbar = () => {
         </h1>
      </button>
 
-     <div className="flex w-10 h-10 bg-black md:hidden">
-
-     </div>
+     <Image src={MenuIcon} alt='Menu list icon ' width={35} height={35} className='md:hidden flex' />
+     
     </div>
 
     </>

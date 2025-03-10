@@ -9,7 +9,7 @@ import { Moreboxes } from '@/Constants';
 
 const Moresec = () => {
   return (
-    <div id='moresec' className="flex w-full flex-col md:flex-row bg-white md:justify-around items-start justify-around">
+    <div id='moresec' className="flex w-full flex-col md:flex-row bg-white md:justify-around items-start justify-around md:py-0 py-3">
       
       {Moreboxes.map((item) => (
         

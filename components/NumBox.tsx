@@ -20,7 +20,7 @@ function NumBox({Num , Dis , Src}: NumBoxesTypes){
         <h1 className='text-5xl font-bold text-white'>
         {Num}
         </h1>
-        <h1 className='text-2xl text-end font-bold text-white'>
+        <h1 className='text-2xl text-end font-bold text-white pb-1'>
         {Dis}
         </h1>
       </div>

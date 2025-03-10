@@ -7,7 +7,7 @@ type CommentsecTypes = {
 }
 function CommentBox ({name,rate, comment, src } : CommentsecTypes ){
   return (
-    <div className="flex flex-col justify-between items-center py-10 px-5 bg-white w-full h-80 ">
+    <div className="flex flex-col justify-between items-center py-10 px-5 bg-white w-full h-80 border-black border-2 border-solid ">
         
         <Image src={src} alt={'profile img'} width={56} height={56} className='rounded-full w-14 h-14' />
         <div className="flex flex-col px-4">
