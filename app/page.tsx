@@ -1,4 +1,4 @@
-import { Commentssec, Distancesec, Herosec, Moresec, NumBoxessec, Projectssec, Servicesec } from "@/components";
+import { Commentssec, Distancesec, Herosec, Mapsec, Moresec, NumBoxessec, Projectssec, Servicesec } from "@/components";
 
 export default function Home() {
   return (
@@ -20,6 +20,7 @@ export default function Home() {
       <Distancesec />
       <NumBoxessec />
       <Commentssec />
+      <Mapsec />
       
     </>
   );

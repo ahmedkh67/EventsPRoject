@@ -7,7 +7,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import { Moresec, Servicesec, Commentssec, Orderbutton } from '@/components';
+import { Moresec, Servicesec, Commentssec, Orderbutton, Mapsec } from '@/components';
 
 const page = () => {
   return (<>
@@ -74,6 +74,7 @@ const page = () => {
               </div>
               <Servicesec />
         <Commentssec />
+        <Mapsec />
         </>
   )
 }

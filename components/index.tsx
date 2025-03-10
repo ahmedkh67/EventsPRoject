@@ -14,6 +14,7 @@ import Distancesec from "./Distancesec";
 import NumBox from "./NumBox";
 import NumBoxessec from "./NumBoxessec";
 import Orderbutton from "./Orderbutton";
+import Mapsec from "./Mapsec";
 
 export {
     Navbar, 
@@ -31,6 +32,7 @@ export {
     Distancesec,
     NumBox,
     NumBoxessec,
-    Orderbutton
+    Orderbutton,
+    Mapsec,
     
 }
