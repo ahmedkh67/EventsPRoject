@@ -1,0 +1,141 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #000000;
+  }
+}
+* {
+  scroll-behavior: smooth;
+
+}
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer Components {
+  .NavBar {
+    @apply flex flex-row-reverse bg-white w-full md:h-[80px] h-[100px] md:px-8 pl-8 fixed justify-between items-center ;
+  }
+  .LogoContainer {
+    @apply w-[160px] h-[98%] overflow-hidden flex justify-center items-center z-10 ;
+    background-image: url("/Logo.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  }
+  .NavlistContainer {
+    @apply w-1/2 md:flex hidden flex-row-reverse justify-between items-center text-black ;
+  }
+  .Navlist-li {
+    @apply font-bold transition-[0.3] text-4xl ;
+  }
+  .Navlist-li:hover {
+    transform: scale(115%);
+
+  }.Navlist-li::after {
+      content: "";
+      display: flex;
+      width: 0%;
+      height: 2px;
+      background-color: black;
+      transition: 0.3s;
+      margin-top: 5px; 
+  }.Navlist-li:hover::after {
+    width: 100%;
+    transform: scale(105%);
+    background-color: rgb(0, 0, 0);
+  }
+  .HeroProjects {
+    animation: backgroundanimate 10s ease-in-out infinite;
+
+  }
+  .Img1 {
+    background-image: url("/img1.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .Img2 {
+    background-image: url("/img2.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .Img3 {
+    background-image: url("/img3.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .ServiceCard_Container {
+    @apply flex flex-col justify-between items-center w-72  mx-[20px] mb-[40px] overflow-hidden bg-blue-200 cursor-default transition-[0.2s] py-6 rounded-md;
+
+  }
+  .ServiceCard_ContainerDialog {
+    @apply flex flex-col justify-between items-center w-72 md:w-96 mx-[20px] mb-[40px] overflow-hidden bg-blue-200 cursor-default transition-[0.2s] py-6 rounded-md absolute;
+
+  }
+  .SserviceCard_Container::after {
+    @apply w-full h-[5px] bg-black content-[""] transition-[0.3s] absolute bottom-0 left-0 hover:h-[20%] ;
+  }
+  .ServiceCard_Image {
+    @apply w-[95%] h-[170px] rounded-md ;
+    background-image: url("/img1.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .ServiceCard_Content {
+    @apply flex flex-col justify-between items-center pt-6 ;
+  }
+  .ServiceCard_Title {
+    @apply text-4xl text-center font-bold ;
+  }
+  .ServiceCard_Bio {
+    @apply text-center ;
+  }
+
+  .Distancesec_Background {
+    @apply flex w-full h-72 ;
+    background-image: url('/img3.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+}
+
+
+@keyframes backgroundanimate {
+  0% {
+      background-image: url("/img1.jpeg");
+  }
+  40% {
+      background-image: url("/img2.jpeg");
+  }
+  
+  50% {
+      background-image: url("/img3.jpeg");
+  }
+  90% {
+      background-image: url("/img2.jpeg");
+  }
+  100% {
+      background-image: url("/img1.jpeg");
+  }
+}
+
