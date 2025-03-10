@@ -3,14 +3,13 @@
 import React from 'react'
 import { CommentBox } from '.'
 
-import {Autoplay ,Navigation, Pagination, Scrollbar } from "swiper/modules";
+import {Autoplay , Pagination, Scrollbar } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Commentsecc } from '@/Constants';
-import Image from 'next/image';
-import WriteIcon from '@/public/Writeicon.svg'
+
 
 const Commentssec = () => {
   return (
