@@ -62,7 +62,7 @@ export const ServicesCards = [
   },
   { title: " خدمة التوصيل و التركيب ",
     bio: " نضمن ان كل شيء جاهز قبل موعد الحدث ",
-    link: "/Decorativetools",
+    link: "/Deliverysrvc",
     
   },
 ] 
