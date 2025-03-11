@@ -1,4 +1,4 @@
-import { Commentssec, GalleryCell, Mapsec, Servicesec } from '@/components'
+import { Commentssec, GalleryCell, Mapsec } from '@/components'
 import React from 'react'
 
 const page = () => {
