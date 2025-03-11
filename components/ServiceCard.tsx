@@ -16,13 +16,10 @@ function ServiceCard ({title , bio , link}: ServiceCardTypes ){
     <>
     
     <div className="ServiceCard_Container bg-zinc-900 my-20 ml-12">
-    <motion.div initial={{opacity: 0, scale: 0}} whileInView={{opacity:1 , scale: 1}} >
         
         <div className="ServiceCard_Image -translate-x-12 -translate-y-36">
 
         </div>
-    </motion.div>
-    <motion.div initial={{opacity: 0, scale: 0}} whileInView={{opacity:1 , scale: 1}} >
         <div className="ServiceCard_Content">
             <h1 className='text-center text-2xl font-bold text-white z-10'>
                 {title}
@@ -41,7 +38,6 @@ function ServiceCard ({title , bio , link}: ServiceCardTypes ){
             </Link>
 
         </div>
-        </motion.div>
     </div>
     
     </>
