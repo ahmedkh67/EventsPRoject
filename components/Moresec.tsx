@@ -13,7 +13,8 @@ const Moresec = () => {
     <div id='moresec' className="flex w-full flex-col md:flex-row bg-white md:justify-around items-start justify-around md:py-0 py-3">
       
       {Moreboxes.map((item) => (
-        <motion.div initial={{opacity: 0}} whileInView={{opacity:1}} key={item.MoreBoxtitle}>
+        <motion.div initial={{opacity: 0}} whileInView={{opacity:1, transition: {duration: 0.7}}}
+        key={item.MoreBoxtitle}>
         
           <Morebox title={item.MoreBoxtitle} 
           bio={item.MoreBoxbio} srcs={item.MoreBoxsrc} key={item.MoreBoxtitle} />
