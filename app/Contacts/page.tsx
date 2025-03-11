@@ -5,6 +5,9 @@ import React from 'react'
 const page = () => {
   return (
     <>
+    <div className="flex w-full bg-black h-[110px]">
+
+    </div>
     <SocialBoxessec />
     <Commentssec />
     <Whatsicon />
