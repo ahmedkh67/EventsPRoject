@@ -12,7 +12,7 @@ import Link from 'next/link';
 const Herosec = () => {
   return (
     
-    <div className="flex flex-col md:flex-row md:pt-[90px] pt-[110px] justify-between items-center bg-white rounded-md fadeanimate2 ">
+    <div className="flex flex-col md:flex-row md:pt-[90px] pt-[110px] justify-between items-center bg-white rounded-md ">
       <div className="flex w-[90%] md:w-1/3 h-[410px] border-black border-8 border-double absolute md:translate-x-64 translate-x-4 translate-y-8 md:translate-y-8 md:mr-0 mr-5">
 
       </div>
@@ -31,7 +31,7 @@ const Herosec = () => {
                       disableOnInteraction: false
                   }}
                   spaceBetween={100}
-                   className='flex w-[90%] h-[90%]  justify-center items-center bg-slate-500 md:mr-0 mr-5 ' >
+                   className='flex w-[90%] h-[90%]  justify-center items-center bg-slate-500 md:mr-0 mr-5 fadeanimate2  ' >
                     <SwiperSlide className='flex justify-center items-center' >
                       <div className="flex w-full h-full Img1">
 
