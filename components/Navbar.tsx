@@ -15,9 +15,11 @@ const Navbar = () => {
   return (
     <>
     <div className="NavBar z-30">
+    <Link href={'././'} >
      <div className="LogoContainer">
 
      </div>
+    </Link>
 
      <ul className='NavlistContainer'>
       {Navlist.map((item) => (
@@ -35,11 +37,11 @@ const Navbar = () => {
         طلب خدمة الأن
         </h1>
      </button>
-      <Link href={'././'} >
+      
       <Image src={MenuIcon} alt='Menu list icon ' width={50} height={50} className='md:hidden flex'
       onClick={() => {setopen(!open)}}
         />
-      </Link>
+      
 
     </div>
     <div className={`flex w-full bg-white h-full top-0 right-0 fixed z-50 
