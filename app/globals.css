@@ -9,7 +9,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #ffffff;
     --foreground: #000000;
   }
 }
@@ -92,7 +92,7 @@ body {
     @apply w-full h-[5px] bg-black content-[""] transition-[0.3s] absolute bottom-0 left-0 hover:h-[20%] ;
   }
   .ServiceCard_Image {
-    @apply w-[95%] h-[170px] rounded-md ;
+    @apply opacity-100 flex w-72 h-40 absolute  rounded-lg ;
     background-image: url("/img1.jpeg");
     background-position: center;
     background-repeat: no-repeat;

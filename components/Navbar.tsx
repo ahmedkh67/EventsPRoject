@@ -7,7 +7,7 @@ import Image from 'next/image'
 const Navbar = () => {
   return (
     <>
-    <div className="NavBar z-10">
+    <div className="NavBar z-30">
      <div className="LogoContainer">
 
      </div>
