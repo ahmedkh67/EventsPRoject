@@ -12,7 +12,7 @@ const SocialBoxessec = () => {
     <div className="flex flex-col md:flex-row w-full md:h-77 
     Distance_Background11 bg-black justify-evenly items-center pb-6 ">
       {SocialBoxes.map((item) => (
-        <SocialBox title={item.title} Src={item.Src} key={item.title}  />
+        <SocialBox title={item.title} Src={item.Src} link={item.link} key={item.title}  />
       ))}     
     </div>
     <div className="flex w-full flex-col justify-center justify-start md:items-end bg-black pb-10 md:px-48 px-10">

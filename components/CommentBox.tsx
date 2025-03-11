@@ -22,7 +22,7 @@ function CommentBox ({name,rate, comment, src } : CommentsecTypes ){
                        
             </div>
             
-            <h1 className='md:text-xl text-2xl h-3/4 text-center'>
+            <h1 className='md:text-xl text-2xl h-3/4 text-center my-1'>
                 {comment}
             </h1>
         </div>

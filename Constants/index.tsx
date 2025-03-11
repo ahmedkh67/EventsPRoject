@@ -90,15 +90,18 @@ export const NumBoxes = [
 export const SocialBoxes = [
   {
       title: " انستغرام " ,
-      Src: "/Chef hat Icon.svg"
+      Src: "/Chef hat Icon.svg",
+      link: "https://www.instagram.com/sada.alnoor7"
   },
   {
       title: " تيك توك " ,
-      Src: "/Chef hat Icon.svg"
+      Src: "/Chef hat Icon.svg",
+      link: "https://www.tiktok.com/@sada.alnoor"
   },
   {
       title: " واتساب " ,
-      Src: "/Whatsapp Icon.svg"
+      Src: "/Whatsapp Icon.svg",
+      link: "https://wa.me/+966590029919",
   },
 ]
 
