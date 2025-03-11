@@ -7,7 +7,7 @@ const Whatsicon = () => {
   return (
     <>
     <Link href={'https://wa.me/+966590029919'}>
-    <div className="flex z-80 w-24 h-24 rounded-full p-2 bg-green-500 justify-center items-center fixed bottom-8 left-8">
+    <div className="flex z-40 w-24 h-24 rounded-full p-2 bg-green-500 justify-center items-center fixed bottom-8 left-8">
         <Image src={whatsappIcon} alt={'whatsapp icon'} width={100} height={60} />
     </div>
     </Link>

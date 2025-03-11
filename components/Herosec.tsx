@@ -20,7 +20,7 @@ const Herosec = () => {
      <div className="flex justify-center items-center md:w-1/2 w-full bg-white md:m-10 h-[450px] md:mr-0 mr-5" >
         
 
-                  
+                  <motion.div initial={{opacity: 0}} whileInView={{opacity:1, transition: {duration: 0.7}}} className='flex w-[90%] h-[90%]  justify-center items-center ' >
                   <Swiper
                   modules={[Autoplay, Pagination , Scrollbar, Navigation]}
                   pagination={true}
@@ -32,7 +32,7 @@ const Herosec = () => {
                       disableOnInteraction: false
                   }}
                   spaceBetween={100}
-                   className='flex w-[90%] h-[90%]  justify-center items-center md:mr-0 mr-5  ' >
+                   className='flex w-full h-full  md:mr-0 mr-5  ' >
                     <SwiperSlide className='flex justify-center items-center' >
                       <div className="flex w-full h-full Img1">
 
@@ -51,6 +51,7 @@ const Herosec = () => {
                     
 
                    </Swiper>
+                   </motion.div>
 
         
       </div> 
