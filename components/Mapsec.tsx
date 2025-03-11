@@ -17,8 +17,8 @@ const Mapsec = () => {
       </h1>
       
     </div>
-    <div className="flex w-full justify-between md:justify-start flex-row-reverse items-center py-6 md:px-0 px-6 bg-white ">
-      <h1 className='md:text-3xl text-3xl text-start font-bold md:mr-[10%] md:ml-8'>
+    <div className="flex w-full justify-between md:justify-start flex-row-reverse items-center py-6 md:px-0 px-3 bg-white ">
+      <h1 className='md:text-3xl text-3xl text-end font-bold md:mr-[10%] md:ml-8'>
         فروعنا في المدينة
       </h1>
       <select value={Address} onChange={handleChange} name='Nameeinput' id='Nameeinput' className='flex bg-black text-white pointer transition-[0.3s] hover:scale-[104%]  h-10 border-1 border-black border-solid px-3 rounded-lg' > 
