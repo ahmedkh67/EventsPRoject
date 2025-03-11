@@ -32,7 +32,7 @@ const Herosec = () => {
                       disableOnInteraction: false
                   }}
                   spaceBetween={100}
-                   className='flex w-[90%] h-[90%]  justify-center items-center bg-slate-500 md:mr-0 mr-5  ' >
+                   className='flex w-[90%] h-[90%]  justify-center items-center md:mr-0 mr-5  ' >
                     <SwiperSlide className='flex justify-center items-center' >
                       <div className="flex w-full h-full Img1">
 
