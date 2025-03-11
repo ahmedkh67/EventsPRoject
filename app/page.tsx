@@ -1,4 +1,5 @@
 import { Commentssec, Distancesec, Herosec, Mapsec, Moresec, NumBoxessec, Projectssec, Servicesec, Whatsicon } from "@/components";
+import SocialBoxessec from "@/components/SocialBoxessec";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <Commentssec />
       <Whatsicon />
       <Mapsec />
+      <SocialBoxessec />
       
     </>
   );

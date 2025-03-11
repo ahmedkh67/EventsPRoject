@@ -16,6 +16,7 @@ import NumBoxessec from "./NumBoxessec";
 import Orderbutton from "./Orderbutton";
 import Mapsec from "./Mapsec";
 import Whatsicon from "./Whatsicon";
+import SocialBox from "./SocialBox";
 
 export {
     Navbar, 
@@ -36,6 +37,7 @@ export {
     Orderbutton,
     Mapsec,
     Whatsicon,
+    SocialBox,
     
     
 }

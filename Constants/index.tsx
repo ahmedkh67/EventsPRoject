@@ -87,6 +87,22 @@ export const NumBoxes = [
 ]
 
 
+export const SocialBoxes = [
+  {
+      title: " انستاغرام " ,
+      Src: "/Chef hat Icon.svg"
+  },
+  {
+      title: " تيك توك " ,
+      Src: "/Chef hat Icon.svg"
+  },
+  {
+      title: " واتساب " ,
+      Src: "/Chef hat Icon.svg"
+  },
+]
+
+
 export const Commentsecc = [
   {
       name: "ahmed mohamed",

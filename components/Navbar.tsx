@@ -41,7 +41,7 @@ const Navbar = () => {
       />
 
     </div>
-    <div className={`flex w-full bg-white h-full top-0 right-0 fixed z-40 
+    <div className={`flex w-full bg-white h-full top-0 right-0 fixed z-50 
       px-6 flex-col justify-start  pt-6 ${open? 'Menuinactive' : 'Menuactive'} *:`}>
         <div className="flex w-full justify-between items-center ">
           <Image src={Logo} alt={"logo img"} width={140} height={50} />
