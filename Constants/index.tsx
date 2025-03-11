@@ -89,7 +89,7 @@ export const NumBoxes = [
 
 export const SocialBoxes = [
   {
-      title: " انستاغرام " ,
+      title: " انستغرام " ,
       Src: "/Chef hat Icon.svg"
   },
   {
@@ -98,7 +98,7 @@ export const SocialBoxes = [
   },
   {
       title: " واتساب " ,
-      Src: "/Chef hat Icon.svg"
+      Src: "/Whatsapp Icon.svg"
   },
 ]
 
