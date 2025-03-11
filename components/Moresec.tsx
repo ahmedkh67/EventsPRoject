@@ -15,8 +15,8 @@ const Moresec = () => {
       {Moreboxes.map((item) => (
         <motion.div initial={{opacity: 0, scale: 0}} whileInView={{opacity:1 , scale: 1}}>
         
-        <Morebox title={item.MoreBoxtitle} 
-        bio={item.MoreBoxbio} srcs={item.MoreBoxsrc} key={item.MoreBoxtitle} />
+          <Morebox title={item.MoreBoxtitle} 
+          bio={item.MoreBoxbio} srcs={item.MoreBoxsrc} key={item.MoreBoxtitle} />
        </motion.div>
       ))}
     
