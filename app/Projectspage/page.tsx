@@ -1,4 +1,4 @@
-import { Commentssec, GalleryCell, Mapsec } from '@/components'
+import { Commentssec, GalleryCell, Mapsec, Whatsicon } from '@/components'
 import React from 'react'
 
 const page = () => {
@@ -32,6 +32,7 @@ const page = () => {
     </div>
     
     <Commentssec />
+    <Whatsicon />
     <Mapsec />
     </>
   )
