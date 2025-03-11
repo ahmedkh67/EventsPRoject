@@ -148,29 +148,28 @@ export const footerLinks = [
       title: " الصفحات ",
       links: [
         { title: " الرئيسية ", url: "./" },
-        { title: " خدماتنا ", url: "/History" },
-        { title: " أعمالنا ", url: "/Team" },
-        { title: " تواصل معنا ", url: "/Team" },
+        { title: " أعمالنا ", url: "/Projectspage" },
+        { title: " تواصل معنا ", url: "/Contacts" },
        
       ],
     },
     {
       title: " روابط سريعة ",
       links: [
-        { title: " ابرز الأعمال ", url: "/Reservation" },       
-        { title: " فروعنا ", url: "#lunchmenu" },
-        { title: " الاستفسارات ", url: "/" },
+        { title: " ابرز الأعمال ", url: "/Projectspage" },       
+        { title: " الاستفسارات ", url: "https://wa.me/+966590029919" },
       ],
     },
     {
       title: " حساباتنا ",
       links: [
-        { title: " واتساب ", url: "/" },
-        { title: " انستغرام ", url: "/" },
-        { title: " تيك توك ", url: "/" },
+        { title: " واتساب ", url: "https://wa.me/+966590029919" },
+        { title: " انستغرام ", url: "https://www.instagram.com/sada.alnoor7" },
+        { title: " تيك توك ", url: "https://www.tiktok.com/@sada.alnoor" },
       ],
     },
   ];
+  
 
 
 
