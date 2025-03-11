@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-
+import { motion } from 'motion/react';
 import { Moresec, Servicesec, Commentssec, Orderbutton, Mapsec, Whatsicon } from '@/components';
 
 const page = () => {
@@ -15,37 +15,40 @@ const page = () => {
          <div className="flex justify-center items-center md:w-1/2 w-full  md:m-10 h-[450px] rounded-md">
             
     
+                      <motion.div initial={{scale: 0}} whileInView={{scale: 1}} className='flex w-[90%] h-[90%] 
+                                             justify-center items-center bg-black rounded-lg' >
+                                            <Swiper
+                                            modules={[Autoplay, Pagination , Scrollbar, Navigation]}
+                                            pagination={true}
+                                            navigation={true}
+                                            slidesPerView={1}
+                                            scrollbar
+                                            loop={true}
+                                            autoplay={{delay: 2500 ,
+                                                disableOnInteraction: false
+                                            }}
+                                            spaceBetween={100}
+                                             className='flex w-full h-full  justify-center items-center bg-slate-500 rounded-lg ' >
+                                              <SwiperSlide className='flex justify-center items-center' >
+                                                <div className="flex w-full h-full Img1">
+                          
+                                                </div>
+                                              </SwiperSlide>
+                                              <SwiperSlide className='flex justify-center items-center' >
+                                                <div className="flex w-full h-full Img2">
+                          
+                                                </div>
+                                              </SwiperSlide>
+                                              <SwiperSlide className='flex justify-center items-center' >
+                                                <div className="flex w-full h-full Img3">
+                          
+                                                </div>
+                                              </SwiperSlide>
+                                              
+                          
+                                             </Swiper>
                       
-                      <Swiper
-                      modules={[Autoplay, Pagination , Scrollbar, Navigation]}
-                      pagination={true}
-                      navigation={true}
-                      slidesPerView={1}
-                      scrollbar
-                      loop={true}
-                      autoplay={{delay: 2500 ,
-                          disableOnInteraction: false
-                      }}
-                      spaceBetween={100}
-                       className='flex w-[90%] h-[90%]  justify-center items-center bg-slate-500 rounded-lg ' >
-                        <SwiperSlide className='flex justify-center items-center' >
-                          <div className="flex w-full h-full Img1">
-    
-                          </div>
-                        </SwiperSlide>
-                        <SwiperSlide className='flex justify-center items-center' >
-                          <div className="flex w-full h-full Img2">
-    
-                          </div>
-                        </SwiperSlide>
-                        <SwiperSlide className='flex justify-center items-center' >
-                          <div className="flex w-full h-full Img3">
-    
-                          </div>
-                        </SwiperSlide>
-                        
-    
-                       </Swiper>
+                                             </motion.div>
     
             
           </div> 

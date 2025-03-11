@@ -15,11 +15,13 @@ const NumBoxessec = () => {
       </div>
     <div className="flex flex-col md:flex-row w-full md:h-77 
     Distance_Background11 bg-black justify-evenly items-center pb-12 ">
-      <motion.div initial={{scale: 0 , rotate: 90}} whileInView={{scale: 1, rotate: 1}} >
+      
       {NumBoxes.map((item) => (
-        <NumBox Num={item.Num} Dis={item.Dis} Src={item.Src} key={item.Dis}  />
+        <motion.div initial={{scale: 0 , rotate: 90}} whileInView={{scale: 1, rotate: 1}} key={item.Dis} >
+          <NumBox Num={item.Num} Dis={item.Dis} Src={item.Src} key={item.Dis}  />
+        </motion.div>
       ))}     
-      </motion.div>
+      
     </div>
     </>
     )
