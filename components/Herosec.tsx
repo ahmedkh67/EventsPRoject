@@ -7,6 +7,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import Link from 'next/link';
+import { motion } from 'motion/react';
 
 
 const Herosec = () => {
@@ -31,7 +32,7 @@ const Herosec = () => {
                       disableOnInteraction: false
                   }}
                   spaceBetween={100}
-                   className='flex w-[90%] h-[90%]  justify-center items-center bg-slate-500 md:mr-0 mr-5 fadeanimate2  ' >
+                   className='flex w-[90%] h-[90%]  justify-center items-center bg-slate-500 md:mr-0 mr-5  ' >
                     <SwiperSlide className='flex justify-center items-center' >
                       <div className="flex w-full h-full Img1">
 
@@ -58,9 +59,15 @@ const Herosec = () => {
         صدى النور
        </h1>
 
-       <h1 className='md:text-4xl text-2xl text-end text-white '>
-       نحن متخصصون في تأجير لوازم الحفلات والمناسبات بجودة عالية وبأسعار تنافسية. سواء كنت تخطط لحفل زفاف، أو عيد ميلاد، أو مناسبة خاصة، فإننا نقدم لك كل ما تحتاجه لجعل يومك مميزاً ومختلفاً
-       </h1>
+
+
+       <motion.div initial={{opacity: 0 , translateY: 10}} whileInView={{opacity: 1, translateY: 0}} >
+        <h1 className='md:text-4xl text-2xl text-end text-white transition-[0.3s]'>
+        نحن متخصصون في تأجير لوازم الحفلات والمناسبات بجودة عالية وبأسعار تنافسية. سواء كنت تخطط لحفل زفاف، أو عيد ميلاد، أو مناسبة خاصة، فإننا نقدم لك كل ما تحتاجه لجعل يومك مميزاً ومختلفاً
+        </h1>
+       </motion.div>
+
+
        <Link href={'#Servicessecid'} >
        <button className="flex bg-blue-400 h-14 justify-center items-center px-12 mt-12 rounded-md
         transition-[0.3s] hover:bg-blue-500 ">
