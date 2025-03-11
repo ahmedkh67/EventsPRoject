@@ -70,21 +70,23 @@ export const ServicesCards = [
 
 export const NumBoxes = [
   {
-      Num: "+200" ,
-      Dis: " مشروع ",
-      Src: "/Chef hat Icon.svg"
+      Num: "+800" ,
+      Dis: " عميل ",
+      Src: "/Person.svg"
   },
   {
-      Num: "+200" ,
-      Dis: " مشروع ",
-      Src: "/Chef hat Icon.svg"
+      Num: "+400" ,
+      Dis: " قطعة ",
+      Src: "/Sofa.svg"
   },
   {
-      Num: "+200" ,
-      Dis: " مشروع ",
-      Src: "/Chef hat Icon.svg"
+      Num: "+10 " ,
+      Dis: " أعوام ",
+      Src: "/Years.svg"
   },
 ]
+
+
 
 
 export const SocialBoxes = [
@@ -109,31 +111,25 @@ export const SocialBoxes = [
 export const Commentsecc = [
   {
       name: "ahmed mohamed",
-      rate: 3 ,
+      rate: 5 ,
       comment: " التعامل معهم جدا ممتاز , والموظفين محترفين في التعامل و الانجاز و طريقتهم في الزينة جدا جميلة",
       src: "/img2.jpeg" 
       
   },
+  
   {
-      name: "ahmed mohamed",
-      rate: 5 ,
-      comment: " التعامل معهم جدا ممتاز , والموظفين محترفين في التعامل و الانجاز و طريقتهم في الزينة جدا جميلة",
-      src: "/img3.jpeg" 
-      
-  },
-  {
-      name: "ahmed mohamed",
+      name: "abdullah Jmel",
       rate: 4 ,
-      comment: " التعامل معهم جدا ممتاز , والموظفين محترفين في التعامل و الانجاز و طريقتهم في الزينة جدا جميلة",
+      comment: " اول مرة اتعامل معهم و ما ندمت ابدا صراحة ",
       src: "/img2.jpeg" 
       
   },
   {
-      name: "ahmed mohamed",
-      rate: 5 ,
-      comment: " التعامل معهم جدا ممتاز , والموظفين محترفين في التعامل و الانجاز و طريقتهم في الزينة جدا جميلة",
-      src: "/img3.jpeg" 
-      
+    name: "khaled 88k",
+    rate: 4 ,
+    comment: " سريعين في الانجاز و اسعارهم جدا مناسبة  ",
+    src: "/img3.jpeg" 
+    
   },
 ]
 
