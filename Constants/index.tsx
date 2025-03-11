@@ -5,11 +5,11 @@ export const Navlist = [
     },
     {
         title: " أعمالنا ",
-        link: "/projects"
+        link: "/Projectspage"
     },
     {
         title: " تواصل معنا ",
-        link: "/contacts"
+        link: "/Contacts"
     },
 ]
 

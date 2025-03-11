@@ -7,6 +7,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import Link from 'next/link';
 
 const Projectssec = () => {
   return (
@@ -50,12 +51,14 @@ const Projectssec = () => {
         
     </div>
     <div className="flex w-full justify-center items-center bg-black pb-[50px]">
+      <Link href={'/Projectspage'}>
         <button className="flex bg-blue-400 h-14 justify-center items-center px-12 rounded-md
         transition-[0.3s] hover:bg-blue-500 ">
             <h1 className='text-white font-bold text-xl'>
                 جميع الأعمال  
             </h1>
         </button>
+        </Link>
     </div>
     </>
   )
