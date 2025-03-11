@@ -12,7 +12,7 @@ function ServiceCard ({title , bio , link}: ServiceCardTypes ){
   return (
     <>
     
-    <div className="ServiceCard_Container bg-zinc-900 my-20 ml-11">
+    <div className="ServiceCard_Container bg-zinc-900 my-20 ml-12">
     <div className="ServiceCard_Image -translate-x-12 -translate-y-36">
 
     </div>
