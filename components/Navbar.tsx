@@ -15,11 +15,11 @@ const Navbar = () => {
   return (
     <>
     <div className="NavBar z-30">
-    <Link href={'././'} >
+    
      <div className="LogoContainer">
-
+     <Link href={'././'} className='w-full h-full' />
      </div>
-    </Link>
+    
 
      <ul className='NavlistContainer'>
       {Navlist.map((item) => (
