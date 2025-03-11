@@ -5,7 +5,7 @@ import { useState } from 'react'
 
 const Mapsec = () => {
 
-  const [Address , setAddress] = useState("https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14524.673703101556!2d39.6103803!3d24.4796205!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15bdbf2a3f8fe8a3%3A0xe0cb8d99e746cfca!2sZAHA%20TAIBA%20HOTEL!5e0!3m2!1sar!2ssa!4v1737365957570!5m2!1sar!2ssa") ;
+  const [Address , setAddress] = useState("https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d907.7952546027304!2d39.68722047281492!3d24.47918408271607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15bd95d1eb150c83%3A0x27675fb84d025a88!2z2LXYr9mJINin2YTZhtmI2LEg2YTYqtij2KzZitixINmE2YjYp9iy2YUg2KfZhNij2YHYsdin2K0g2YjYp9mE2YXZhtin2LPYqNin2Ko!5e0!3m2!1sar!2ssa!4v1741713980659!5m2!1sar!2ssa") ;
   const handleChange = (e: { target: { value: React.SetStateAction<string>; }; }) => { setAddress(e.target.value) }
 
   return (

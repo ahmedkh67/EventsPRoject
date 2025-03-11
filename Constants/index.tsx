@@ -80,7 +80,7 @@ export const NumBoxes = [
       Src: "/Sofa.svg"
   },
   {
-      Num: "+10 " ,
+      Num: "+7 " ,
       Dis: " أعوام ",
       Src: "/Years.svg"
   },
@@ -112,7 +112,7 @@ export const Commentsecc = [
   {
       name: "ahmed mohamed",
       rate: 5 ,
-      comment: " التعامل معهم جدا ممتاز , والموظفين محترفين في التعامل و الانجاز و طريقتهم في الزينة جدا جميلة",
+      comment: " الموظفين محترفين في التعامل و الانجاز و طريقتهم في الزينة جدا جميلة",
       src: "/img2.jpeg" 
       
   },
