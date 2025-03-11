@@ -16,7 +16,7 @@ function SocialBox({title , Src}: SocialBoxesTypes){
           <Image src={Src} alt={'idonr'} width={150} height={35} />
         </div>
         
-        <h1 className='text-3xl font-bold text-white'>
+        <h1 className='text-2xl font-bold text-gray-700'>
         {title}
         </h1>
         <h1 className='text-2xl text-end font-bold text-white pb-1'>

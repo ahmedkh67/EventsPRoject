@@ -16,10 +16,10 @@ const SocialBoxessec = () => {
       ))}     
     </div>
     <div className="flex w-full flex-col justify-center justify-start md:items-end bg-black pb-10 md:px-48 px-10">
-        <h1 className="text-xl text-center md:text-3xl text-white my-2" >
+        <h1 className="text-xl text-center md:text-3xl text-white my-2 opacity-50" >
             رقم التواصل 1 - 0590029919    
         </h1>
-        <h1 className="text-xl md:text-3xl text-center text-white " >
+        <h1 className="text-xl md:text-3xl text-center text-white opacity-50" >
             رقم التواصل 2 - 0590029919    
         </h1>
     </div>
