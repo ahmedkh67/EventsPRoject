@@ -116,6 +116,18 @@ body {
     background-size: cover;
     background-attachment: fixed;
   }
+  .Menuinactive {
+    transition: 0.5s;
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(0);
+  }
+  .Menuactive {
+    transition: 0.5s;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(500px);
+  }
 
 }
 
