@@ -11,7 +11,7 @@ type SocialBoxesTypes = {
 function SocialBox({title , Src, link}: SocialBoxesTypes){
   return (
     <div className="flex flex-col md:flex-row w-40 h-36 p-4 my-4 rounded-2xl bg-black justify-center items-center border-1 border-black border-solid">
-      <Link href={link} >
+      <Link href={link} className='w-full' >
         <div className="flex w-full h-full border-2 border-black bg-zinc-900 border-solid rounded-xl justify-center items-center flex-col">
           
           <div className="flex w-16 h-16 rounded-full pt-2 my-1 

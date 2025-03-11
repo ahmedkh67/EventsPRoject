@@ -1,10 +1,11 @@
 import { Commentssec, Mapsec, Whatsicon } from '@/components'
+import SocialBoxessec from '@/components/SocialBoxessec'
 import React from 'react'
 
 const page = () => {
   return (
     <>
-    <div>page</div>
+    <SocialBoxessec />
     <Commentssec />
     <Whatsicon />
     <Mapsec />
