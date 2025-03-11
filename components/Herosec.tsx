@@ -54,7 +54,7 @@ const Herosec = () => {
         
       </div> 
      <div className=" flex flex-col justify-center items-end w-[90%] bg-black md:m-10 md:pr-[5%] px-[5%] pb-10 rounded-ss-xl[120px] ">
-       <h1 className='md:text-7xl text-5xl text-end font-bold my-10 text-white'>
+       <h1 className='md:text-7xl text-5xl text-end font-bold my-10 text-white fadeanimate'>
         صدى النور
        </h1>
 

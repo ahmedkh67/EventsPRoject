@@ -25,7 +25,8 @@ body {
 
 @layer Components {
   .NavBar {
-    @apply flex flex-row-reverse bg-white w-full md:h-[80px] h-[100px] md:px-8 pl-8 fixed justify-between items-center ;
+    @apply flex flex-row-reverse bg-white w-full md:h-[80px] h-[100px] md:px-8 pl-8 fixed justify-between items-center transition-[0.4s] ;
+    animation: Navbar 0.4s ease-in-out ;
   }
   .LogoContainer {
     @apply w-[160px] h-[98%] overflow-hidden flex justify-center items-center z-10 ;
@@ -132,6 +133,11 @@ body {
 }
 
 
+.fadeanimate {
+  transition: 0.4s;
+  animation: fadeanimate 0.4s ease-in-out;
+}
+
 @keyframes backgroundanimate {
   0% {
       background-image: url("/img1.jpeg");
@@ -149,5 +155,22 @@ body {
   100% {
       background-image: url("/img1.jpeg");
   }
+  
+}
+@keyframes Navbar {
+    0% {
+      transform: translateY(130px);
+    }100% {
+      transform: translateY(0);
+    }
+
 }
 
+@keyframes fadeanimate {
+  0%{
+    opacity: 0%;
+
+  }100% {
+    opacity: 100%;
+  }
+}
