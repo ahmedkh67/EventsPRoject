@@ -19,6 +19,7 @@ export const SlidesImages = {
     Slide2: "image2",
     Slide3: "image3"
   },
+
   DecorativetoolsSlides : {
     Slide1: "image2", 
     Slide2: "image4",
@@ -128,13 +129,13 @@ export const LuxurywaresSlidesText = {
 }
 
 export const SpecialequipmentSlideText = {
-title : "                تأجير الأثاث و المعدات الخاصة",
-bio : "            من الأرائك الفاخرة الى المفروشات المريحة , نقدم لك خبارات متنوعة تتناسب مع ذوقك و احتياجك ",
+title : " تأجير الأثاث و المعدات الخاصة",
+bio : " من الأرائك الفاخرة الى المفروشات المريحة , نقدم لك خبارات متنوعة تتناسب مع ذوقك و احتياجك ",
 }
 
 export const DeliverysrvcSlidesText = {
-  title : "                     خدمة التوصيل و التركيب ", 
-  bio : "            نحن نهتم بكل التفاصيل , من التوصيل الى التركيب , لضمان ان كل شيء جاهز قبل موعد الحدث " ,
+  title : " خدمة التوصيل و التركيب ", 
+  bio : " نحن نهتم بكل التفاصيل , من التوصيل الى التركيب , لضمان ان كل شيء جاهز قبل موعد الحدث " ,
 }
 
 
@@ -207,8 +208,7 @@ export const Commentsecc = [
 
 
 export const Maps = {   
-  branch1: "",
-  branch2: "",
+  
   }
 
 
