@@ -1,14 +1,11 @@
 "use client"
 
 import React from 'react'
-import {Autoplay ,Navigation, Pagination, Scrollbar } from "swiper/modules";
-import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { motion } from 'motion/react';
 
-import { Moresec, Servicesec, Commentssec, Orderbutton, Mapsec, Whatsicon, Herosec } from '@/components';
+import { Moresec, Servicesec, Commentssec, Mapsec, Whatsicon, Herosec } from '@/components';
 import { SlidesImages, SpecialequipmentSlideText } from '@/Constants';
 
 const page = () => {
