@@ -1,8 +1,12 @@
 import React from 'react'
 
-const GalleryCell = () => {
+type GallerycellTypes = {
+  src: string
+}
+
+function GalleryCell({src}: GallerycellTypes){
   return (
-    <div className="flex w-[18rem] h-[300px] Img1 m-3">
+    <div className={`flex w-[18rem] h-[300px] ${src} m-3 :*` }>
 
     </div>
   )

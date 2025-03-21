@@ -13,7 +13,7 @@ const Servicesec = () => {
     {ServicesCards.map((item) => (
           <motion.div initial={{opacity: 0, scale: 0}} whileInView={{opacity:1 , scale: 1}} key={item.title}>
 
-      <ServiceCard title={item.title} bio={item.bio} link={item.link} key={item.title} />
+      <ServiceCard title={item.title} bio={item.bio} link={item.link} key={item.title} src={item.src} />
       </motion.div>
     ))}
       

@@ -10,7 +10,7 @@ type MoreboxParams = {
 function MoreBox ({title , bio , srcs } : MoreboxParams) {
     return (
       <>
-      <div className='flex flex-row-reverse w-full md:w-[373px] py-4 md:h-[118px]  px-4 overflow-hidden justify-center border-1 md:my-2 md:mx-2 my-3 rounded-md border-black
+      <div className='flex flex-row-reverse w-full py-4 md:h-[118px]  px-4 overflow-hidden justify-center border-1 md:my-2 my-3 rounded-md border-black
        border-solid bg-white transition-[0.3s] hover:bg-blue-300 opacity-85 '>
           <Image src={srcs} alt={'morebox icon'} width={60} height={65} className='ml-5' />
           <div className="flex w-full flex-col justify-center pl-4">

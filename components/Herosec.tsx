@@ -9,11 +9,17 @@ import "swiper/css/pagination";
 import Link from 'next/link';
 import { motion } from 'motion/react';
 
+type Heroslidestype = {
+  slide1: string , slide2: string, 
+  slide3: string , bgcolor: string , 
+  title: string, bio: string
+}
 
-const Herosec = () => {
+function Herosec({slide1 , slide2, slide3, bgcolor, title , bio}: Heroslidestype){
+
   return (
     
-    <div className="flex flex-col md:flex-row md:pt-[90px] pt-[110px] justify-between items-center bg-white rounded-md ">
+    <div className={`flex flex-col md:flex-row md:pt-[90px] pt-[110px] justify-between items-center ${bgcolor} bg-white rounded-md :* `}>
       <div className="flex w-[90%] md:w-1/3 h-[410px] border-black border-8 border-double absolute md:translate-x-64 translate-x-4 translate-y-8 md:translate-y-8 md:mr-0 mr-5">
 
       </div>
@@ -34,17 +40,17 @@ const Herosec = () => {
                   spaceBetween={100}
                    className='flex w-full h-full  md:mr-0 mr-5  ' >
                     <SwiperSlide className='flex justify-center items-center' >
-                      <div className="flex w-full h-full Img1">
+                      <div className={`flex w-full h-full Img1 ${slide1} :*`}>
 
                       </div>
                     </SwiperSlide>
                     <SwiperSlide className='flex justify-center items-center' >
-                      <div className="flex w-full h-full Img2">
+                      <div className={`flex w-full h-full Img2 ${slide2} :*`}>
 
                       </div>
                     </SwiperSlide>
                     <SwiperSlide className='flex justify-center items-center' >
-                      <div className="flex w-full h-full Img3">
+                      <div className={`flex w-full h-full Img3 ${slide3} :*`}>
 
                       </div>
                     </SwiperSlide>
@@ -57,14 +63,14 @@ const Herosec = () => {
       </div> 
      <div className=" flex flex-col justify-center items-end w-[90%] bg-black md:m-10 md:pr-[5%] px-[5%] pb-10 rounded-ss-xl[120px] ">
        <h1 className='md:text-7xl text-5xl text-end font-bold my-10 text-white fadeanimate'>
-        صدى النور
-       </h1>
+          {title}     
+        </h1>
 
 
 
        <motion.div initial={{opacity: 0 , translateY: 10}} whileInView={{opacity: 1, translateY: 0}} >
         <h1 className='md:text-4xl text-2xl text-end text-white transition-[0.3s]'>
-        نحن متخصصون في تأجير لوازم الحفلات والمناسبات بجودة عالية وبأسعار تنافسية. سواء كنت تخطط لحفل زفاف، أو عيد ميلاد، أو مناسبة خاصة، فإننا نقدم لك كل ما تحتاجه لجعل يومك مميزاً ومختلفاً
+          {bio}     
         </h1>
        </motion.div>
 
@@ -78,7 +84,8 @@ const Herosec = () => {
         </button>
         </Link>
       </div> 
-    </div>  )
+    </div>  
+    )
 }
 
-export default Herosec
+export default Herosec ;

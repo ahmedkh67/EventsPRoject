@@ -9,26 +9,18 @@ const page = () => {
         </h1>
     </div>
     <div className="flex bg-black w-full flex-col md:flex-row px-[5%] justify-center items-center flex-wrap py-[60px] ">
-        <GalleryCell />
-        <GalleryCell />
-        <GalleryCell />
-        <GalleryCell />
-        <GalleryCell />
-        <GalleryCell />
-        <GalleryCell />
-        <GalleryCell />
-        <GalleryCell />
-        <GalleryCell />
-        <GalleryCell />
-        <GalleryCell />
-        <GalleryCell />
-        <GalleryCell />
-        <GalleryCell />
-        <GalleryCell />
-        <GalleryCell />
-        <GalleryCell />
-        <GalleryCell />
-        <GalleryCell />
+        <GalleryCell src={'image1'} />
+        <GalleryCell src={'image2'} />
+        <GalleryCell src={'image3'} />
+        <GalleryCell src={'image4'} />
+        <GalleryCell src={'image5'} />
+        <GalleryCell src={'image6'} />
+        <GalleryCell src={'image8'} />
+        <GalleryCell src={'image9'} />
+        <GalleryCell src={'image10'} />
+        <GalleryCell src={'image11'} />
+        <GalleryCell src={'image12'} />
+        
     </div>
     
     <Commentssec />

@@ -13,6 +13,40 @@ export const Navlist = [
     },
 ]
 
+export const SlidesImages = {
+  HeroSlides : {
+    Slide1: "image1", 
+    Slide2: "image2",
+    Slide3: "image3"
+  },
+  DecorativetoolsSlides : {
+    Slide1: "image2", 
+    Slide2: "image4",
+    Slide3: "image5"
+  },
+  LightsequipmentSlides : {
+    Slide2: "image6",
+    Slide1: "image7", 
+    Slide3: "image10"
+  },
+  LuxurywaresSlides : {
+    Slide1: "image3", 
+    Slide2: "image11",
+    Slide3: "image12"
+  },
+  SpecialeqipmentSlides : {
+    Slide1: "image1", 
+    Slide2: "image8",
+    Slide3: "image5"
+  },
+  DeliverysrvcSlides : {
+    Slide1: "image15", 
+    Slide2: "image14",
+    Slide3: "image13"
+  },
+  
+}
+
 
 export const Moreboxes = [
     {
@@ -43,29 +77,66 @@ export const ServicesCards = [
   { title: " تأجير أدوات الزينة و الديكور ",
     bio: " من الطاولات والكراسي , الى الاضاءة والزينة ",
     link: "/Decorativetools ",
+    src: "ServiceCard_Image1"
     
   },
   { title: " تأجير معدات الصوت والاضاءة ",
     bio: " احدث انظمة الصوت و الاضاءة التي تضمن لك تجربة مميزة ",
     link: "/Lightsequipment  ",
+    src: "ServiceCard_Image2"
     
   },
   { title: " تأجير الأثاث و المعدات الخاصة " ,
     bio: " خيارات متنوعة تتناسب مع ذوقك و احتياجك ",
     link: "/Specialequipment  ",
+    src: "ServiceCard_Image3"
     
   },
   { title: " تأجير الأواني و القطع الفاخرة ",
     bio: " تأثيث الطاولات بأواني مميزة و انيقة ",
     link: "/Luxurywares  ",
+    src: "ServiceCard_Image4"
     
   },
   { title: " خدمة التوصيل و التركيب ",
     bio: " نضمن ان كل شيء جاهز قبل موعد الحدث ",
     link: "/Deliverysrvc",
+    src: "ServiceCard_Image5"
     
   },
 ] 
+
+export const HeroSldieText = {
+  title: "        صدى النور", 
+  bio: "        نحن متخصصون في تأجير لوازم الحفلات والمناسبات بجودة عالية وبأسعار تنافسية. سواء كنت تخطط لحفل زفاف، أو عيد ميلاد، أو مناسبة خاصة، فإننا نقدم لك كل ما تحتاجه لجعل يومك مميزاً ومختلفاً", 
+}
+
+
+export const DecorativetoolsSlideText = {
+title : "           تأجير أدوات الزينة و الديكور " , 
+bio: "        نحن متخصصون في تأجير لوازم الحفلات والمناسبات بجودة عالية وبأسعار تنافسية. سواء كنت تخطط لحفل زفاف، أو عيد ميلاد، أو مناسبة خاصة، فإننا نقدم لك كل ما تحتاجه لجعل يومك مميزاً ومختلفاً", 
+}
+
+export const LightsequipmentSlideText = {
+title : "                       تأجير أدوات الصوت و الاضاءة ",
+bio : "            سواء كان حفل او محاضرة , نوفر لك احدث انظمة الصوت و الاضاءة التي تضمن لك تجربة مميز ",
+}
+
+export const LuxurywaresSlidesText = {
+  title : "                     تأجير الأواني و القطع الفاخرة ",
+  bio : "            تأثيث الطاولات بأواني مميزة و أسطوانات تقديم أنيقة , لكي تضفي لمسة فاخرة على مائدتك "
+}
+
+export const SpecialequipmentSlideText = {
+title : "                تأجير الأثاث و المعدات الخاصة",
+bio : "            من الأرائك الفاخرة الى المفروشات المريحة , نقدم لك خبارات متنوعة تتناسب مع ذوقك و احتياجك ",
+}
+
+export const DeliverysrvcSlidesText = {
+  title : "                     خدمة التوصيل و التركيب ", 
+  bio : "            نحن نهتم بكل التفاصيل , من التوصيل الى التركيب , لضمان ان كل شيء جاهز قبل موعد الحدث " ,
+}
+
 
 
 export const NumBoxes = [

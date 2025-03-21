@@ -10,7 +10,7 @@ import { motion } from 'motion/react';
 
 const Moresec = () => {
   return (
-    <div id='moresec' className="flex w-full flex-col md:flex-row bg-white md:justify-around items-start justify-around md:py-0 py-3">
+    <div id='moresec' className="flex w-full flex-col md:flex-row bg-white md:justify-around items-start justify-around md:py-0 py-3 px-2">
       
       {Moreboxes.map((item) => (
         <motion.div initial={{opacity: 0}} whileInView={{opacity:1, transition: {duration: 0.7}}}

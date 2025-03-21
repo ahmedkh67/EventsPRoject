@@ -7,16 +7,17 @@ import Link from 'next/link'
 type ServiceCardTypes = {
     title : string , 
     bio : string , 
-    link: string
+    link: string,
+    src: string
 }
 
-function ServiceCard ({title , bio , link}: ServiceCardTypes ){
+function ServiceCard ({title , bio , link, src}: ServiceCardTypes ){
   return (
     <>
     
     <div className="ServiceCard_Container bg-zinc-900 my-20 ml-12">
         
-        <div className="ServiceCard_Image -translate-x-12 -translate-y-36">
+        <div className={`-translate-x-12 -translate-y-36 ${src} *: `}>
 
         </div>
         <div className="ServiceCard_Content">
