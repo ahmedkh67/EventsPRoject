@@ -5,8 +5,8 @@ import { HeroSldieText, SlidesImages } from "@/Constants";
 export default function Home() {
   return (
     <>
-      <Herosec slide1={SlidesImages.HeroSlides.Slide1} slide2={SlidesImages.HeroSlides.Slide2} slide3={SlidesImages.HeroSlides.Slide3} 
-      bgcolor={""} title={HeroSldieText.title} bio={HeroSldieText.bio} />
+      <Herosec slide1={SlidesImages.HeroSlides.Slide1} slide2={SlidesImages.HeroSlides.Slide2} slide3={SlidesImages.HeroSlides.Slide3}
+      bgcolor={""} title={HeroSldieText.title} bio={HeroSldieText.bio} slide4={SlidesImages.HeroSlides.Slide4} slide5={SlidesImages.HeroSlides.Slide5} slide6={SlidesImages.HeroSlides.Slide6} slide7={SlidesImages.HeroSlides.Slide7} slide8={SlidesImages.HeroSlides.Slide8} slide9={SlidesImages.HeroSlides.Slide9} />
       
       <Moresec />
       <div className="flex w-full justify-center items-center bg-white pt-20 mb-5 ">

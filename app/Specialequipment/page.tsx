@@ -10,12 +10,18 @@ import { SlidesImages, SpecialequipmentSlideText } from '@/Constants';
 
 const page = () => {
   return (<>
-    <Herosec slide1={SlidesImages.SpecialeqipmentSlides.Slide1} 
-    slide2={SlidesImages.SpecialeqipmentSlides.Slide2} 
-    slide3={SlidesImages.SpecialeqipmentSlides.Slide3} 
-    bgcolor={'bg-black md:bg-white'} 
-    title={SpecialequipmentSlideText.title} 
-    bio={SpecialequipmentSlideText.bio} />
+    <Herosec slide1={SlidesImages.SpecialeqipmentSlides.Slide1}
+    slide2={SlidesImages.SpecialeqipmentSlides.Slide2}
+    slide3={SlidesImages.SpecialeqipmentSlides.Slide3}
+    bgcolor={'bg-black md:bg-white'}
+    title={SpecialequipmentSlideText.title}
+    bio={SpecialequipmentSlideText.bio} 
+    slide4={SlidesImages.SpecialeqipmentSlides.Slide4}
+     slide5={SlidesImages.SpecialeqipmentSlides.Slide5} 
+     slide6={SlidesImages.SpecialeqipmentSlides.Slide6} 
+     slide7={SlidesImages.SpecialeqipmentSlides.Slide7} 
+     slide8={SlidesImages.SpecialeqipmentSlides.Slide8} 
+     slide9={SlidesImages.SpecialeqipmentSlides.Slide9} />
 
     
         <Moresec />

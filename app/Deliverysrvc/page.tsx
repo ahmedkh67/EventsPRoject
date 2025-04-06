@@ -11,10 +11,16 @@ import { DeliverysrvcSlidesText, SlidesImages } from '@/Constants';
 const page = () => {
   return (<>
     <Herosec slide1={SlidesImages.DeliverysrvcSlides.Slide1}
-     slide2={SlidesImages.DeliverysrvcSlides.Slide2}
-     slide3={SlidesImages.DeliverysrvcSlides.Slide3}
-     bgcolor={'bg-black md:bg-white'} title={DeliverysrvcSlidesText.title}
-      bio={DeliverysrvcSlidesText.bio} />
+    slide2={SlidesImages.DeliverysrvcSlides.Slide2}
+    slide3={SlidesImages.DeliverysrvcSlides.Slide3}
+    bgcolor={'bg-black md:bg-white'} title={DeliverysrvcSlidesText.title}
+    bio={DeliverysrvcSlidesText.bio} 
+    slide5={SlidesImages.DeliverysrvcSlides.Slide4} 
+    slide6={SlidesImages.DeliverysrvcSlides.Slide5} 
+    slide4={SlidesImages.DeliverysrvcSlides.Slide6} 
+    slide7={SlidesImages.DeliverysrvcSlides.Slide7} 
+    slide8={SlidesImages.DeliverysrvcSlides.Slide8} 
+    slide9={SlidesImages.DeliverysrvcSlides.Slide9} />
 
 
         <Moresec />

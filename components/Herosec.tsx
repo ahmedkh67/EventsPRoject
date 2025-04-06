@@ -10,12 +10,20 @@ import Link from 'next/link';
 import { motion } from 'motion/react';
 
 type Heroslidestype = {
-  slide1: string , slide2: string, 
-  slide3: string , bgcolor: string , 
+  slide1: string , 
+  slide2: string, 
+  slide3: string, 
+  slide4: string , 
+  slide5: string, 
+  slide6: string, 
+  slide7: string , 
+  slide8: string, 
+  slide9: string, 
+  bgcolor: string , 
   title: string, bio: string
 }
 
-function Herosec({slide1 , slide2, slide3, bgcolor, title , bio}: Heroslidestype){
+function Herosec({slide1 , slide2, slide3,slide4, slide5, slide6, slide7, slide8, slide9, bgcolor, title , bio}: Heroslidestype){
 
   return (
     
@@ -51,6 +59,36 @@ function Herosec({slide1 , slide2, slide3, bgcolor, title , bio}: Heroslidestype
                     </SwiperSlide>
                     <SwiperSlide className='flex justify-center items-center' >
                       <div className={`flex w-full h-full Img3 ${slide3} :*`}>
+
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide className='flex justify-center items-center' >
+                      <div className={`flex w-full h-full Img1 ${slide4} :*`}>
+
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide className='flex justify-center items-center' >
+                      <div className={`flex w-full h-full Img2 ${slide5} :*`}>
+
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide className='flex justify-center items-center' >
+                      <div className={`flex w-full h-full Img3 ${slide6} :*`}>
+
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide className='flex justify-center items-center' >
+                      <div className={`flex w-full h-full Img1 ${slide7} :*`}>
+
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide className='flex justify-center items-center' >
+                      <div className={`flex w-full h-full Img2 ${slide8} :*`}>
+
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide className='flex justify-center items-center' >
+                      <div className={`flex w-full h-full Img3 ${slide9} :*`}>
 
                       </div>
                     </SwiperSlide>

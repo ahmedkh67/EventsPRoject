@@ -15,35 +15,71 @@ export const Navlist = [
 
 export const SlidesImages = {
   HeroSlides : {
-    Slide1: "image1", 
-    Slide2: "image2",
-    Slide3: "image3"
+    Slide1: "slide11", 
+    Slide2: "slide22",
+    Slide3: "slide33",
+    Slide4: "slide44", 
+    Slide5: "slide55",
+    Slide6: "slide66",
+    Slide7: "slide77", 
+    Slide8: "slide88",
+    Slide9: "slide99",
   },
 
   DecorativetoolsSlides : {
     Slide1: "image2", 
     Slide2: "image4",
-    Slide3: "image5"
+    Slide3: "image5",
+    Slide4: "image2", 
+    Slide5: "image4",
+    Slide6: "image5",
+    Slide7: "image2", 
+    Slide8: "image4",
+    Slide9: "image5",
   },
   LightsequipmentSlides : {
     Slide2: "image6",
     Slide1: "image7", 
-    Slide3: "image10"
+    Slide3: "image10",
+    Slide4: "image6",
+    Slide5: "image7", 
+    Slide6: "image10",
+    Slide7: "image6",
+    Slide8: "image7", 
+    Slide9: "image10",
   },
   LuxurywaresSlides : {
     Slide1: "image3", 
     Slide2: "image11",
-    Slide3: "image12"
+    Slide3: "image12",
+    Slide4: "image3", 
+    Slide5: "image11",
+    Slide6: "image12",
+    Slide7: "image3", 
+    Slide8: "image11",
+    Slide9: "image12",
   },
   SpecialeqipmentSlides : {
     Slide1: "image1", 
     Slide2: "image8",
-    Slide3: "image5"
+    Slide3: "image5",
+    Slide4: "image1", 
+    Slide5: "image8",
+    Slide6: "image5",
+    Slide7: "image1", 
+    Slide8: "image8",
+    Slide9: "image5",
   },
   DeliverysrvcSlides : {
     Slide1: "image15", 
     Slide2: "image14",
-    Slide3: "image13"
+    Slide3: "image13",
+    Slide4: "image15", 
+    Slide5: "image14",
+    Slide6: "image13",
+    Slide7: "image15", 
+    Slide8: "image14",
+    Slide9: "image13",
   },
   
 }
