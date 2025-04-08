@@ -113,12 +113,13 @@ function Herosec({slide1 , slide2, slide3,slide4, slide5, slide6, slide7, slide8
        </motion.div>
 
 
-       <Link href={'#Servicessecid'} >
+       <Link href={'https://wa.me/+966590029919'} >
        <button className="flex bg-blue-400 h-14 justify-center items-center px-12 mt-12 rounded-md
         transition-[0.3s] hover:bg-blue-500 ">
           <h1 className='text-white font-bold text-lg'>
-          تعرف على خدماتنا
-            </h1>
+
+          طلب خدمة
+          </h1>
         </button>
         </Link>
       </div> 
