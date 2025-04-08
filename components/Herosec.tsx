@@ -28,10 +28,10 @@ function Herosec({slide1 , slide2, slide3,slide4, slide5, slide6, slide7, slide8
   return (
     
     <div className={`flex flex-col md:flex-row md:pt-[90px] pt-[110px] justify-between items-center ${bgcolor} bg-white rounded-md :* `}>
-      <div className="flex w-[90%] md:w-1/3 h-[410px] border-black border-8 border-double absolute md:translate-x-64 translate-x-4 translate-y-8 md:translate-y-8 md:mr-0 mr-5">
+     {/* <div className="flex w-[90%] md:w-1/3 h-[410px] border-black border-8 border-double absolute md:translate-x-64 translate-x-4 translate-y-8 md:translate-y-8 md:mr-0 mr-5">
 
-      </div>
-     <div className="flex justify-center items-center md:w-1/2 w-full bg-white md:m-10 h-[450px] md:mr-0 mr-5" >
+      </div> */}
+     <div className="flex justify-center items-center md:w-1/2 w-full bg-white md:m-10 h-[450px] md:mr-0mr-5" >
         
 
                   <motion.div initial={{opacity: 0}} whileInView={{opacity:1, transition: {duration: 0.7}}} className='flex w-[90%] h-[90%]  justify-center items-center ' >
@@ -46,7 +46,7 @@ function Herosec({slide1 , slide2, slide3,slide4, slide5, slide6, slide7, slide8
                       disableOnInteraction: false
                   }}
                   spaceBetween={100}
-                   className='flex w-full h-full  md:mr-0 mr-5  ' >
+                   className='flex w-full h-full  md:mr-0mr-5  ' >
                     <SwiperSlide className='flex justify-center items-center' >
                       <div className={`flex w-full h-full Img1 ${slide1} :*`}>
 
@@ -99,15 +99,15 @@ function Herosec({slide1 , slide2, slide3,slide4, slide5, slide6, slide7, slide8
 
         
       </div> 
-     <div className=" flex flex-col justify-center items-end w-[90%] bg-black md:m-10 md:pr-[5%] px-[5%] pb-10 rounded-ss-xl[120px] ">
-       <h1 className='md:text-7xl text-5xl text-end font-bold my-10 text-white fadeanimate'>
+     <div className=" flex flex-col justify-center items-end w-[90%] bg-blackk md:m-10 md:pr-[5%] px-[5%] pb-10 rounded-ss-xl[120px] ">
+       <h1 className='md:text-7xl text-5xl text-end font-bold my-10 text-whitee text-black fadeanimate'>
           {title}     
         </h1>
 
 
 
        <motion.div initial={{opacity: 0 , translateY: 10}} whileInView={{opacity: 1, translateY: 0}} >
-        <h1 className='md:text-4xl text-2xl text-end text-white transition-[0.3s]'>
+        <h1 className='md:text-4xl text-2xl text-end text-whitee text-black transition-[0.3s]'>
           {bio}     
         </h1>
        </motion.div>

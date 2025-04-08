@@ -114,25 +114,25 @@ export const ServicesCards = [
   { title: " تأجير أدوات الزينة و الديكور ",
     bio: " من الطاولات والكراسي , الى الاضاءة والزينة ",
     link: "/Decorativetools ",
-    src: "ServiceCard_Image1"
+    src: "mainback1"
     
   },
   { title: " تأجير معدات الصوت والاضاءة ",
     bio: " احدث انظمة الصوت و الاضاءة التي تضمن لك تجربة مميزة ",
     link: "/Lightsequipment  ",
-    src: "ServiceCard_Image2"
+    src: "mainback2"
     
   },
   { title: " تأجير الأثاث و المعدات الخاصة " ,
     bio: " خيارات متنوعة تتناسب مع ذوقك و احتياجك ",
     link: "/Specialequipment  ",
-    src: "ServiceCard_Image3"
+    src: "mainback3"
     
   },
   { title: " تأجير الأواني و القطع الفاخرة ",
     bio: " تأثيث الطاولات بأواني مميزة و انيقة ",
     link: "/Luxurywares  ",
-    src: "ServiceCard_Image4"
+    src: "mainback4"
     
   },
   { title: " خدمة التوصيل و التركيب ",
