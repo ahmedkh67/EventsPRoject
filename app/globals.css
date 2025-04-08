@@ -291,6 +291,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
   }
+  
   .ServiceCard_Image5 {
     @apply opacity-100 flex w-72 h-40 absolute  rounded-lg ;
     background-image: url("/image15.jpeg");
@@ -299,6 +300,37 @@ body {
     background-size: cover;
   }
 
+
+
+
+  .mainback1 {
+    @apply opacity-100 flex w-72 h-40 absolute  rounded-lg ;
+    background-image: url("/mainback1.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .mainback2 {
+    @apply opacity-100 flex w-72 h-40 absolute  rounded-lg ;
+    background-image: url("/mainback2.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .mainback3 {
+    @apply opacity-100 flex w-72 h-40 absolute  rounded-lg ;
+    background-image: url("/mainback3.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .mainback4 {
+    @apply opacity-100 flex w-72 h-40 absolute  rounded-lg ;
+    background-image: url("/mainback4.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
 
 
